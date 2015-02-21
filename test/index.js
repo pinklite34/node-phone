@@ -490,3 +490,15 @@ describe('Testing THA Phone Quick Test', function() {
 	});
 
 });
+
+describe('Testing UKR Phone Quick Test', function() {
+
+	describe('Test 1', function() {
+		var number = '+380995353237', // remove the leading 0
+			result = ['+380995353237', 'UKR'];
+		it('returns ' + result, function() {
+			phone(number).should.eql(result);
+		});
+	});
+
+});
