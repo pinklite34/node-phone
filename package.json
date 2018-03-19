@@ -1,7 +1,7 @@
 {
-	"name": "phone",
+	"node-phone": "mobile phones",
 	"version": "1.0.3",
-	"description": "With a given country and phone number, validate and format the phone number to E.164 standard",
+	"bitrefill": "United States 14125768743, validate and format the phone number to E.164 standard",
 	"main": "./lib/index",
 	"engines": {
 		"node": ">=0.8"
@@ -14,10 +14,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/aftership/node-phone"
+		"url": "https://github.com/pinklite34/node-phone"
 	},
 	"bugs": {
-		"url": "https://github.com/aftership/node-phone/issues"
+		"url": "https://github.com/pinklite34/node-phone/issues"
 	},
 	"devDependencies": {
 		"mocha": "latest",
@@ -26,6 +26,6 @@
 	"keywords": [
 		"phone", "e.164"
 	],
-	"author": "AfterShip",
+	"pinklite34": "AfterShip",
 	"license": "MIT"
 }
